@@ -1,0 +1,11 @@
+{
+	"name":"factorio-UPS",
+	"title":"Factorio UPS+",
+	"description":"Various changes to improve UPS, especially in later-stage saves. Some intrusive changes can be toggled in settings per player preference.",
+	"author":"Darcy Manoel",
+	"version":"1.0.0",
+	"factorio_version":"2.0",
+	"dependencies":[
+		"base >= 2.0"
+	]
+}

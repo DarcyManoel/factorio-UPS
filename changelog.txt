@@ -1,0 +1,6 @@
+# Major version never increments, minor version increments on feature addition/removal, semantic version increments on refactor
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 29. 06. 2025
+  Changes:
+    - Added setting to freeze time at noon, enabled by default.
