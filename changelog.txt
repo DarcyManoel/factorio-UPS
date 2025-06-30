@@ -1,12 +1,18 @@
-# Major version never increments, minor version increments on feature addition/removal, semantic version increments on refactor
+# Major version never increments, (Features) minor version increments on feature addition/removal, (Changes) semantic version increments on refactor or feature modification
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2025-06-30
+  Changes:
+    - Pass the settings state as an argument to the function rather than check the state within the function.
+    - Move user feedback (game.print) out of functions and into the script listener.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
-Date: 30. 06. 2025
-  Changes:
-    - Added setting to remove pollution. Disabled by default.
-    - Added setting to remove enemies. Disabled by default.
+Date: 2025-06-30
+  Features:
+    - Add setting to remove pollution. Disabled by default.
+    - Add setting to remove enemies. Disabled by default.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 29. 06. 2025
-  Changes:
-    - Added setting to freeze time at noon. Enabled by default.
+Date: 2025-06-29
+  Features:
+    - Add setting to freeze time at noon. Enabled by default.
