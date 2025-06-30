@@ -1,6 +1,12 @@
 # Major version never increments, minor version increments on feature addition/removal, semantic version increments on refactor
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 30. 06. 2025
+  Changes:
+    - Added setting to remove pollution. Disabled by default.
+    - Added setting to remove enemies. Disabled by default.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 29. 06. 2025
   Changes:
-    - Added setting to freeze time at noon, enabled by default.
+    - Added setting to freeze time at noon. Enabled by default.
