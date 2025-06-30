@@ -10,7 +10,7 @@ end
 --disable biters
 local function clear_all_biters()
 	for _,enemy in pairs(game.surfaces[1].find_entities_filtered{force='enemy'})do enemy.destroy()end
-	game.players[1].force.chart_all()
+	for _,player in pairs(game.connected_players)do player.force.chart_all()end
 end
 local function apply_disable_biters_setting(enabled)
 	if enabled then clear_all_biters()end
